@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.lingyu</groupId>
+		<artifactId>lingyu-dependencies</artifactId>
+		<version>1.0.0</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<groupId>com.lingyu</groupId>
+	<artifactId>lingyu-tablestore-spring-boot-starter</artifactId>
+	<version>1.0.0</version>
+	<name>lingyu-tablestore-spring-boot-starter</name>
+	<description>lingyu-tablestore-spring-boot-starter</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.aliyun.openservices</groupId>
+			<artifactId>tablestore</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.lingyu</groupId>
+			<artifactId>lingyu-common</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<target>17</target>
+					<source>17</source>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
